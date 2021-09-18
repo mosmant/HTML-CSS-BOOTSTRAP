@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .urun-listesi {
+        width: 400px;
+        background-color: rgb(145, 136, 136);
+      }
+      .urun-listesi thead {
+        background-color: rgb(77, 77, 77);
+        color: azure;
+        text-align: left;
+      }
+
+      .urun-listesi body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .acik-renk {
+        background-color: rgb(235, 235, 235);
+      }
+    </style>
+  </head>
+  <body>
+    <table class="urun-listesi">
+      <thead>
+        <tr>
+          <th>S:N</th>
+          <th>Urun Adi</th>
+          <th>Fiyat</th>
+        </tr>
+      </thead>
+      <!-- tr*6>td*3 bu su demek table row 6 satir olustur. td ise 3 sutun olustur. -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>notebook</td>
+          <td>1000$</td>
+        </tr>
+        <tr class="acik-renk">
+          <td>2</td>
+          <td>mouse</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>klavye</td>
+          <td>5$</td>
+        </tr>
+        <tr class="acik-renk">
+          <td>4</td>
+          <td>monitor</td>
+          <td>150$</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>adaptor</td>
+          <td>15$</td>
+        </tr>
+        <tr class="acik-renk">
+          <td>6</td>
+          <td>ses sistemi</td>
+          <td>100$</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <br />
+    <br />
+
+    <table>
+      <thead>
+        <tr>
+          <th>S:N</th>
+          <th>Urun Adi</th>
+          <th>Fiyat</th>
+        </tr>
+      </thead>
+      <!-- tr*6>td*3 bu su demek table row 6 satir olustur. td ise 3 sutun olustur. -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>notebook</td>
+          <td>1000$</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>mouse</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>klavye</td>
+          <td>5$</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <h1>Kayit Formu</h1>
+    <!-- burada action kismi back- end kismini baglar. server daki dosyaya kayit icin
+    post ise servere gonderimi daha guvenli ve gorunmez halde gonderiyor.-->
+    <form action="server/kayit.js" method="post">
+      <p>
+        <label for="ad">Adiniz:</label>
+        <input id="ad" type="text" placeholder="Adiniz" />
+      </p>
+      <br />
+      <input type="hidden" name="id" value="12341234" />
+
+      <p>
+        <label for="sifre">Sifreniz:</label>
+        <input type="password" id="sifre" />
+      </p>
+      <p>
+        <label for="deneyim">Deneyim:</label>
+        <input type="number" id="deneyim" />
+      </p>
+
+      <p>
+        <label for="ara">ara:</label>
+        <input type="search" id="ara" />
+      </p>
+      <p>
+        <label for="soyad">Soyadiniz:</label>
+        <input type="text" id="soyad" placeholder="Soyadiniz" />
+      </p>
+
+      <p>
+        <input type="button" value="Gonder" />
+      </p>
+      <!-- eger biz submit koyarsak inputlardaki verileri actionda belirttigimiz adrese gonderir. -->
+      <p>
+        <input type="submit" value="Gonder" />
+      </p>
+      <p>
+        <input type="reset" value="Temizle" />
+      </p>
+    </form>
+  </body>
+</html>
