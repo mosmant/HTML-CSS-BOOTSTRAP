@@ -35,15 +35,78 @@
         <label for="soyad">Soyadiniz:</label>
         <input type="text" id="soyad" placeholder="Soyadiniz" />
       </p>
-
+      <!-- disabled kullanim disina alir. if gibi bir durumda genelde kullanilir.-->
       <p>
-        <input type="button" value="Gonder" />
+        <input type="button" value="Gonder" disabled />
       </p>
       <!-- eger biz submit koyarsak inputlardaki verileri actionda belirttigimiz adrese gonderir. -->
       <p>
         <input type="submit" value="Gonder" />
       </p>
       <p>
+        <input type="reset" value="Temizle" />
+      </p>
+      <p>
+        <label for="hobiler">Hobileriniz</label><br />
+        ​
+        <label for="futbol">Futbol</label>
+        <input type="checkbox" name="futbol" id="futbol" value="futbol" /><br />
+        ​
+        <label for="basketbol">Basketbol</label>
+        <input
+          type="checkbox"
+          name="basketbol"
+          id="basketbol"
+          value="basketbol"
+        />
+        <br />
+        ​
+        <label for="voleybol">Voleybol</label>
+        <input type="checkbox" name="voleybol" id="voleybol" value="voleybol" />
+      </p>
+      <p>
+        <label for="cinsiyet">Cinsiyet</label><br />
+        ​
+        <input type="radio" name="cinsiyet" id="erkek" value="erkek" />
+        <label for="erkek">Erkek</label><br />
+        ​
+        <input type="radio" name="cinsiyet" id="kadin" value="bayan" />
+        <label for="kadin">Kadın</label><br />
+      </p>
+      ​
+      <p>
+        <label for="medeni">Medeni Hali</label><br />
+        ​
+        <input type="radio" name="medeni_hali" id="evli" value="evli" />
+        <label for="evli">Evli</label><br />
+        ​
+        <input type="radio" name="medeni_hali" id="bekar" value="bekar" />
+        <label for="bekar">Bekar</label><br />
+      </p>
+      ​
+      <p>
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="avatar" />
+      </p>
+      ​
+      <p>
+        <label for="dogum">Doğum Tarihi</label>
+        <input type="date" name="dogum" id="dogum" />
+      </p>
+      ​
+      <p>
+        <label for="dogum_yeri">Doğum Yeri</label>
+        <select name="dogum" id="dogum_yeri">
+          <option value="1">Adana</option>
+          <option value="2">Adıyaman</option>
+          <option value="3">Afyon</option>
+          <option value="4">Ağrı</option>
+        </select>
+      </p>
+      ​
+      <p>
+        <input type="submit" value="Gönder" disabled />
+        <input type="button" value="Kontrol Et" />
         <input type="reset" value="Temizle" />
       </p>
     </form>
