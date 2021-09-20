@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.menu {
+  background-color: rgb(104, 104, 104);
+  text-align: left;
+  width: 200px;
+  list-style-type: "🌀";
+  list-style-position: inside;
+  padding: 0;
+}
+.aktif {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+.menu a {
+  /* burada sadece a da diyebilirdik ama tüm sayfadaki a ile yazilmis olanlari etkilerdi. 
+    o yuzden menu a yazdik.*/
+  text-decoration: none;
+  color: black;
+}
+.aktif a {
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+.menu li:hover a {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 1.3rem;
+}

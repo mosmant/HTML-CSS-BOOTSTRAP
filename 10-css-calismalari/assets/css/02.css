@@ -1,0 +1,13 @@
+.baslik {
+  color: green;
+}
+.baslik2 {
+  color: red;
+}
+/* burada en ozel style tanimlamasi .
+baslik2 dir. ozel selector digerlerini ezer. 
+* en genel selectordur hepsini kapsar
+-- ogrenmek icin opera da ogeyi denetle ya da chrome da incele yi incelersek goruruz.*/
+* {
+  color: green;
+}
