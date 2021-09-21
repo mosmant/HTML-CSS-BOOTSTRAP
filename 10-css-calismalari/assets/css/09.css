@@ -1,0 +1,22 @@
+.menu {
+  width: 300px;
+}
+
+.menu .button {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 5px;
+}
+/* burada button classi daha dar oldugundan dolayi hoveri acamıyor. 
+daha dogrusu clasin alt clasi birbirine baglanamiyor.*/
+.menu:hover ul {
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 5px;
+  border: 1px solid cornflowerblue;
+  margin: 0;
+  display: none;
+}

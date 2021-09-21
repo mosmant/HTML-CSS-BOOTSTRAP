@@ -1,0 +1,19 @@
+/* burda li block eleman oldugu icin ozellik degistirmek icin inline - block kullaniyoruz.*/
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background-color: rgb(255, 174, 174);
+  border-radius: 10px;
+}
+.menu ul {
+  list-style: none;
+}
+/* menunun tuslari hover sayesinde degisti.  */
+.menu a:hover {
+  background-color: rgb(255, 80, 80);
+}
