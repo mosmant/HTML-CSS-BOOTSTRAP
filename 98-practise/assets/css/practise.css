@@ -1,0 +1,43 @@
+body {
+  background-image: url(../img/dan-asaki-4ifMy-Dyxr0-unsplash.jpg);
+}
+​ .arkaplanresim {
+  background-image: url(../img/ryan-geller-9mGSc18MV3s-unsplash.jpg);
+  border-radius: 10px;
+  width: 900px;
+  height: 300px;
+  margin-top: 75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-left: 475px;
+}
+​ .ust-yazi {
+  color: white;
+  font-size: 50px;
+  padding-left: 175px;
+  padding-top: 50px;
+}
+​ .alt-yazi {
+  color: white;
+  font-size: 50px;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+​ .butonlar ul {
+  width: 800px;
+  list-style-type: none;
+  margin-left: 500px;
+  text-align: center;
+}
+​ .butonlar li {
+  padding: 5px;
+  display: inline-block;
+  width: 150px;
+}
+​ .ilk-eleman {
+  background-color: lightgreen;
+}
+.diger {
+  background-color: coral;
+}

@@ -1,0 +1,18 @@
+.kutu {
+  font-size: 25px;
+  color: red;
+}
+.menu {
+  display: none;
+}
+/* burada media sorgusu yaptık. dedik ki bu uygulamayi acacak arkadas tablet vs. kullaniyorsa 768px ve ondan kucukse 
+media query calistir. degilse calistirma dedik*/
+@media (min-width: 768px) {
+  .kutu {
+    font-size: 35px;
+    color: blue;
+  }
+  .menu {
+    display: block;
+  }
+}

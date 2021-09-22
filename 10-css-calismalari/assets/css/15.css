@@ -4,7 +4,8 @@
 }
 .text-box .fa-search {
   position: absolute;
-  /*absolute yapilan elemanin parentina realtive yapilmalidir.*/
+  /*absolute yapilan elemanin parentina realtive yapilmalidir.bunun sebebi parenti body olarak tanımlamaktır.
+   eger bunu yapmazsak parenti body olarak kabul eder.*/
   right: 4px;
   top: 3px;
 }
